@@ -1,0 +1,140 @@
+/* Reset de estilos */
+body, h1, h2, h3, p, ul, ol, li, a, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+}
+
+article img {
+    max-width: 100%; /* Ajusta la anchura máxima de la imagen al 100% del contenedor */
+    height: 388px; /* Mantiene la proporción de la imagen */
+    display: block; /* Evita el espacio adicional debajo de la imagen */
+    margin-top: 10px; /* Añade espacio sobre la imagen */
+    border-radius: 8px; /* Añade bordes redondeados a la imagen */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra suave */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Alinear elementos en el centro horizontalmente */
+}
+
+nav li {
+    margin: 0 15px; /* Ajustar el espaciado entre elementos del menú */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buscador {
+    display: flex;
+    margin: 20px;
+}
+
+.buscador input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.buscador button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buscador button:hover {
+    background-color: #555;
+}
+
+.secciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+section {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-bottom: 10px; /* Añade espacio entre el título y las recetas */
+}
+
+
+article h3 {
+    color: #333;
+}
+
+article p {
+    color: #555;
+}
+
+article a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+article a:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
